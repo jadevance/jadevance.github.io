@@ -25,6 +25,9 @@
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
         </div>
+        <div class="executive-summary" itemprop="description">
+          <p>OMG please give me a job, Indeed said I had sparkle and strong intuition.</p>
+        </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
         <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contact me</a>
@@ -131,11 +134,21 @@
             <li><a href="https://github.com/jadevance/fuzz-therapy">Rails API Repo</a></li>
           </ul>
         </div>
-
         <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Donut Eater's User Group</h3>
-          <h4 class="resume-item-details">Co-Founder & Organizer &bull; 2007 &mdash; Present</h4>
-          <p class="resume-item-copy">DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.</p>
+          <h3 class="resume-item-title"><a href="https://mylittlefarmar.herokuapp.com/">My Little FarMar</a></h3>
+          <h4 class="resume-item-details">Pair Project &bull; 2016 </h4>
+          <p class="resume-item-copy">Worked to build a postgres database backed Rails application to view, create, and manage relational entities.</p>
+          <ul class="resume-item-list">
+            <li><a href="https://github.com/jadevance/FarMarRails">FarMar Rails Repo</a></li>
+          </ul>
+        </div>
+        <div class="resume-item">
+          <h3 class="resume-item-title"><a href="http://fandom-formatter.herokuapp.com/">Fandom Formatter</a></h3>
+          <h4 class="resume-item-details">Primary Developer &bull; 2016 </h4>
+          <p class="resume-item-copy">Built a Rails application with a text parser that can translate Google Docs to clean HTML. Explored how to use OAuth for logging in to Google.</p>
+          <ul class="resume-item-list">
+            <li><a href="https://github.com/jadevance/Fandom-Formatter">Fandom Formatter Repo</a></li>
+          </ul>
         </div>
 
       </section>
