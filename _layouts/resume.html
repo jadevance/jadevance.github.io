@@ -47,56 +47,92 @@
           <h2>Experience</h2>
         </header>
 
-        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details" itemprop="description">Safety Inspector &bull; Nov, 1980 &mdash; Present</h4>
-          <p class="resume-item-copy">Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:</p>
-          <ul class="resume-item-list">
-            <li>Ate lots of donuts</li>
-            <li>Fell asleep rarely</li>
-            <li>Left promptly at end of day (sometimes earlier)</li>
-          </ul>
-          <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>
+          <div class="executive-summary" itemprop="description">
+            <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
+          </div>
 
-        </div><!-- end of resume-item -->
+          
+          <a href="mailto:jadenicolevance@gmail.com" class="contact-button" itemprop="email">Contact me</a>
+          
 
-        <!-- another resume item -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Sir Putt-A-Lot's Merrie Olde Fun Centre</h3>
-          <h4 class="resume-item-details" itemprop="description">Windmill Crank Operator &bull; Jun, 1978 &mdash; Sept, 1979</h4>
-          <p class="resume-item-copy">If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.</p>
-
-        </div><!-- end of resume-item -->
-
-        <!-- by now you're getting the picture... -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Simpson Lazer Tag</h3>
-          <h4 class="resume-item-details" itemprop="description">Front Desk Attendant &bull; Jun, 1975 &mdash; May, 1978</h4>
-          <p class="resume-item-copy">Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.</p>
-
-        </div><!-- end of resume-item -->
-
-      </section>
-      <!-- end Experience -->
-      {% endif %}
-
-      {% if site.resume_section_education %}
-      <!-- begin Education -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Education</h2>
         </header>
 
-        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">Springfield College</h3>
-          <h4 class="resume-item-details" itemprop="description">Associates Degree, Business Management &bull; 1984 &mdash; 1986</h4>
-          <p class="resume-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p>
-        </div>
+        
+        <!-- begin Experience -->
+        <section class="content-section">
 
-      </section>
-      <!-- end Education -->
+          <header class="section-header">
+            <h2>Experience</h2>
+          </header>
+          <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+            <h3 class="resume-item-title" itemprop="name">Microsoft</h3>
+            <h4 class="resume-item-details" itemprop="description">Intern: Windows Engineering Systems &bull; Oct, 2016 &mdash; Present</h4>
+            <p class="resume-item-copy">Assisted in design and implementation of a web-based tool to handle the internal management of physical machine checkout and reclamation. This included:</p>
+            <ul class="resume-item-list">
+              <li>Reviewed Deliverables with a PM, planned sprints</li>
+              <li>Tested for cross-browser support</li>
+              <li>Researched technical solutions in open source libraries</li>
+              <li>Wrote C# server-side code to retrieve data from an API</li>
+              <li>Wrote javascript code to handle display and manipulation of data</li>
+            </ul>
+            <p class="resume-item-copy">Refactored a legacy application for physical machine checkout and reclamation. This included:</p>
+            <ul class="resume-item-list">
+              <li>Reading and understanding the existing code</li>
+              <li>Gathering documentation and requirements to understand the application</li>
+              <li>Researched technical solutions in open source libraries</li>
+              <li>Identifying and fixing bugs in Javascript</li>
+              <li>Worked with SDEs to redesign API endpoints to follow RESTful conventions</li>
+            </ul>
+          </div>
+          <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+            <h3 class="resume-item-title" itemprop="name">USBiotek</h3>
+            <h4 class="resume-item-details" itemprop="description">Senior Chemist &bull; Nov, 2011 &mdash; Nov, 2015</h4>
+            <p class="resume-item-copy">Method Development: Built a proprietary scientific test from inception to validation.</p>
+            <p class="resume-item-copy">Works with in-house developers to design, test and execute new software modules in Laboratory Management Systems, including:
+            </p>
+            <ul class="resume-item-list">
+              <li>Gathering requirements for automated worklist generation</li>
+              <li>Designing a way to sort doctors' orders for faster specimen turnaround-times</li>
+            </ul>
+          </div>
+          <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+            <h3 class="resume-item-title" itemprop="name">Creative Testing Solutions</h3>
+            <h4 class="resume-item-details" itemprop="description">Clinical Laboratory Technician IV &bull; Apr, 2004 &mdash; Aug, 2010</h4>
+            <ul class="resume-item-list">
+              <li>Worked as bench technician and shift supervisor</li>
+              <li>Performed time-critical testing on organ donations</li>
+            </ul>
+          </div>
+        </section>
+        <section class="content-section">
+
+          <header class="section-header">
+            <h2>Education</h2>
+          </header>
+
+          <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+            <h3 class="resume-item-title" itemprop="name">Ada Developers Academy</h3>
+            <h4 class="resume-item-details" itemprop="description">Full-Stack Training &bull; 2016 &mdash; Present</h4>
+            <p class="resume-item-copy">Learned and worked in web technologies with focus on:</p>
+            <ul class="resume-item-list">
+              <li>Ruby / Ruby on Rails</li>
+              <li>JavaScript / NodeJS</li>
+              <li>APIs - client and server-side</li>
+              <li>Version Control - Git</li>
+            </ul>
+          </div>
+
+          <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+            <h3 class="resume-item-title" itemprop="name">Arizona State University</h3>
+            <h4 class="resume-item-details" itemprop="description">BS: Biology &bull; 2003 &mdash; 2005</h4>
+            <p class="resume-item-copy">Learned and worked in web technologies with focus on:</p>
+            <ul class="resume-item-list">
+              <li>Minor: Chemistry</li>
+              <li>graduated with cum laude honors</li>
+            </ul>
+          </div>
+        </section>
+        <!-- end Education -->
       {% endif %}
 
       {% if site.resume_section_projects %}
