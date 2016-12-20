@@ -13,7 +13,7 @@ resume_avatar:                  "true"
 resume_name:                    "Jade Vance"
 resume_title:                   "Junior Software Developer"
 resume_contact_email:
-  "homerjsimpson@youremailaddress.com"
+  "jadenicolevance@gmail.com"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -34,13 +34,13 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jadevance/resume-template"
+  resume_github_url:            "https://github.com/jadevance"
   resume_twitter_url:           "http://twitter.com/jadenicolevance"
-  resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/jadevance"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
+  # resume_website_url:           "http://joelglovier.com"
 
 # Design settings
 resume_theme:                   default
