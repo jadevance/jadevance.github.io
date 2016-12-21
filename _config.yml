@@ -36,10 +36,8 @@ resume_section_associations:    false
 resume_social_links:
   resume_github_url:            "https://github.com/jadevance"
   resume_twitter_url:           "http://twitter.com/jadenicolevance"
-  resume_pdf_url:               "https://www.dropbox.com/s/bs06y7lgccubj6g/Jade-Vance-Resume.pdf"
-  # resume_facebook_url:          ""
+  resume_pdf_url:               "https://www.dropbox.com/s/wx5yrirpudzyuic/Jade_Vance_Resume.pdf?dl=0"
   resume_linkedin_url:          "https://www.linkedin.com/in/jadevance"
-  # resume_instagram_url:         "https://www.google.com"
 
 # Design settings
 resume_theme:                   default
